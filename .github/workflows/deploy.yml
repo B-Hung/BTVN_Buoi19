@@ -22,7 +22,7 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           script: |
             echo "==> Navigating to project directory"
-            cd ~/hung-compose-app/E-COMMERCEWEBSITE-main
+            cd ~/ba-hung/hung-compose-app/E-COMMERCEWEBSITE-main
 
             echo "==> Pulling latest changes from GitHub"
             git pull origin main
